@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Component</title>
+    <!-- FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Global Container -->
+    <div class="min-h-screen bg-lightPink flex justify-center items-center p-6">
+        <!-- Accordion Container -->
+        <div class="bg-white max-w-3xl mx-auto rounded-xl shadow-lg p-10">
+            <!-- Header Text Container -->
+            <div class="flex flex-row items-center space-x-6 mb-8">
+                <img src="./images/icon-star.svg" alt="star icon">
+                <h3 class="text-6xl font-bold text-darkPurple">FAQs</h3>
+            </div>
+
+            <!-- FAQ Accordion -->
+            <div class="divide-y">
+                <!-- Item 1 -->
+                <div class="max-w-xl mx-auto group py-3" tabindex="1">
+                    <!-- Question -->
+                    <div class="flex items-center justify-between  space-x-5 group-hover:cursor-pointer group" >
+                        <p class="font-bold text-darkPurple">
+                            What is Frontend Mentor and how it will help me?
+                        </p>
+                        <div class="">
+                            <img src="./images/icon-plus.svg" alt="plus icon" class="group-focus:hidden">
+                            <img src="./images/icon-minus.svg" alt="minus icon" class="hidden group-focus:block">
+                        </div>
+                    </div>
+                    <!-- Answer -->
+                    <div class="max-h-0 group-focus:max-h-screen text-grayishPurple font-normal overflow-hidden transition-all duration-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugit earum repellendus veniam architecto excepturi unde aspernatur necessitatibus porro iure?
+                    </div>
+                </div>
+
+                 <!-- Item 2 -->
+                 <div class="max-w-xl mx-auto group py-3" tabindex="2">
+                    <!-- Question -->
+                    <div class="flex items-center justify-between  space-x-5 group-hover:cursor-pointer group" >
+                        <p class="font-bold text-darkPurple">
+                           Is Frontend Mentor free?
+                        </p>
+                        <div class="">
+                            <img src="./images/icon-plus.svg" alt="plus icon" class="group-focus:hidden">
+                            <img src="./images/icon-minus.svg" alt="minus icon" class="hidden group-focus:block">
+                        </div>
+                    </div>
+                    <!-- Answer -->
+                    <div class="max-h-0 group-focus:max-h-screen text-grayishPurple font-normal overflow-hidden transition-all duration-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugit earum repellendus veniam architecto excepturi unde aspernatur necessitatibus porro iure?
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="max-w-xl mx-auto group py-3" tabindex="3">
+                    <!-- Question -->
+                    <div class="flex items-center justify-between  space-x-5 group-hover:cursor-pointer group" >
+                        <p class="font-bold text-darkPurple">
+                            Can i use Frontend Mentor project in my portfolio?
+                        </p>
+                        <div class="">
+                            <img src="./images/icon-plus.svg" alt="plus icon" class="group-focus:hidden">
+                            <img src="./images/icon-minus.svg" alt="minus icon" class="hidden group-focus:block">
+                        </div>
+                    </div>
+                    <!-- Answer -->
+                    <div class="max-h-0 group-focus:max-h-screen text-grayishPurple font-normal overflow-hidden transition-all duration-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugit earum repellendus veniam architecto excepturi unde aspernatur necessitatibus porro iure?
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="max-w-xl mx-auto group py-3" tabindex="4">
+                    <!-- Question -->
+                    <div class="flex items-center justify-between space-x-5 group-hover:cursor-pointer group" >
+                        <p class="font-bold text-darkPurple">
+                            How can i get help when i'am stuck on a challenge?
+                        </p>
+                        <div class="">
+                            <img src="./images/icon-plus.svg" alt="plus icon" class="group-focus:hidden">
+                            <img src="./images/icon-minus.svg" alt="minus icon" class="hidden group-focus:block">
+                        </div>
+                    </div>
+                    <!-- Answer -->
+                    <div class="max-h-0 group-focus:max-h-screen text-grayishPurple font-normal overflow-hidden transition-all duration-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugit earum repellendus veniam architecto excepturi unde aspernatur necessitatibus porro iure?
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
